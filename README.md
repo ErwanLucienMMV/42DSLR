@@ -2,8 +2,8 @@
 
 Preparation for **Data Science x Logistic Regression**, subject version 5.
 This repository contains study documentation, aggregate findings, and the supplied
-fictional Hogwarts datasets in `datasets/`. No project programs, trained model,
-or predictions have been produced.
+fictional Hogwarts datasets in `datasets/`, and a commented learning POC. No main
+DSLR programs, trained Hogwarts model, or house predictions have been produced.
 
 The goal is to explore student data and build a Hogwarts house classifier using
 four one-vs-rest logistic regressions trained with gradient descent. The subject
@@ -29,7 +29,16 @@ requires a minimum accuracy of **98%** during evaluation.
    tracked in [datasets](datasets/), with 1,600 labeled training rows and 400
    unlabeled test rows.
 3. Use the data inventory and exploration notes to plan which features to compare.
-4. Follow the roadmap when implementation is authorized.
+4. Try the [commented AND/OR learning POC](getting%20feets%20wet/README.md) to
+   practice the core calculation, then use the roadmap for the main DSLR project.
+
+## Learning POC
+
+The [getting feets wet](getting%20feets%20wet/README.md) folder contains a
+standard-library Python example of one sigmoid neuron learning AND and OR, plus
+an XOR comparison illustrating its limits. The code includes detailed explanatory
+comments, visible loss traces, and mathematical checks. See that folder's README
+for run commands and a guided reading order.
 
 The notes distinguish **subject requirements** from **recommended design choices**.
 The data inspection identifies Care of Magical Creatures as a histogram candidate
