@@ -1,9 +1,11 @@
 # Findings from the provided datasets
 
-Inspected on **10 November 2026**. Sources: local files
-`datasets/dataset_train.csv` and `datasets/dataset_test.csv`, provided by the user.
-The original files have not been edited and are excluded from Git. Place them at
-those paths separately when using another checkout. This is reference analysis for planning
+Inspected on **10 November 2026**. Sources:
+[training CSV](../datasets/dataset_train.csv) and
+[test CSV](../datasets/dataset_test.csv), provided by the user.
+The user confirmed these are fictional Hogwarts data from the assignment and
+authorized publishing them. The original files are tracked in Git without edits.
+This is reference analysis for planning
 the project, not output from an implemented `describe` program or trained model.
 
 ## File inventory

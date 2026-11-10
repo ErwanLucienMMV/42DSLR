@@ -1,9 +1,9 @@
 # DSLR study and implementation guide
 
 Preparation for **Data Science x Logistic Regression**, subject version 5.
-This repository contains study documentation and aggregate dataset findings. The
-supplied CSVs have been inspected and remain local in `datasets/`, excluded from
-Git. No project programs, trained model, or predictions have been produced.
+This repository contains study documentation, aggregate findings, and the supplied
+fictional Hogwarts datasets in `datasets/`. No project programs, trained model,
+or predictions have been produced.
 
 The goal is to explore student data and build a Hogwarts house classifier using
 four one-vs-rest logistic regressions trained with gradient descent. The subject
@@ -25,9 +25,9 @@ requires a minimum accuracy of **98%** during evaluation.
 ## Start here
 
 1. Read the requirements and manual statistics notes.
-2. Read the [dataset findings](docs/08-dataset-findings.md): the local files are in
-   `datasets/`, with 1,600 labeled training rows and 400 unlabeled test rows. On
-   another checkout, obtain those provided CSVs separately and place them there.
+2. Read the [dataset findings](docs/08-dataset-findings.md): the supplied files are
+   tracked in [datasets](datasets/), with 1,600 labeled training rows and 400
+   unlabeled test rows.
 3. Use the data inventory and exploration notes to plan which features to compare.
 4. Follow the roadmap when implementation is authorized.
 

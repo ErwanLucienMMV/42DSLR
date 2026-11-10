@@ -53,8 +53,9 @@ these notes come from the supplied CSVs, not the illustrative examples in the PD
 
 The user supplied `datasets/dataset_train.csv` and `datasets/dataset_test.csv`
 after the initial subject review. Both were inspected on 10 November 2026.
-They remain unchanged and are excluded from Git; only aggregate findings are
-published. Exact fingerprints, schema, row counts, and analysis
+The user confirmed these are fictional Hogwarts data from the assignment and
+authorized publishing them. They remain unchanged and are tracked in Git.
+Exact fingerprints, schema, row counts, and analysis
 conventions are in [dataset findings](08-dataset-findings.md). An upstream download
 URL was not provided, so none is claimed.
 
