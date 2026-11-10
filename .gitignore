@@ -1,0 +1,3 @@
+# Running the learning examples should not add Python bytecode to the repository.
+__pycache__/
+*.py[cod]
